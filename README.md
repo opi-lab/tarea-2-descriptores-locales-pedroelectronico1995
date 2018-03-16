@@ -22,12 +22,12 @@ Ejemplo de la estructura del repositorio a subir
 
 Debido a que algunos de nosotros trabajamos en equipos bajo algun sabor unix (Linux,OSX,etc.) y otros en Windows, es recomendable que a la hora de definir un camino (*path*) hacia una imagen u otro archivo dentro de su programa utilicen ``os.path``. Un ejemplo sencillo es [el siguiente:][path_link]
 
-  Ejecutando en Windows sale esto 
-  print os.path.abspath("/var/lib/blob_files/myfile.blob")
-  >>> C:\var\lib\blob_files\myfile.blob
+ 	 Ejecutando en Windows sale esto 
+	  print os.path.abspath("/var/lib/blob_files/myfile.blob")
+	  >>> C:\var\lib\blob_files\myfile.blob
   
-  En unix sale esto
-  /var/lib/blob_files/myfile.blob
+	  En unix sale esto
+	  /var/lib/blob_files/myfile.blob
   
 
 [path_link]: https://stackoverflow.com/questions/13162372/using-absolute-unix-paths-in-windows-with-python
