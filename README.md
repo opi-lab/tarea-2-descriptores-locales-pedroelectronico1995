@@ -1,23 +1,12 @@
 # Local Image Descriptors
 
-Esta segunda tarea tiene que ver con la utilización de descriptores locales de imagenes, como Harris o SIFT. Estos descriptores son ampliamente utilizados para distintas aplicaciones como pegado de imágenes, reconocimiento de objetos, navegación de robots, etc. 
+PEDRO NEL MENDOZA VANEGAS
 
-Deberán modificar este archivo ``README.md`` en dónde describan la documentación del código que están adjuntando. En particular deben cumplir con lo siguiente:
+Este repositorio se trata sobre la temática del capítulo 2 del libro guía del curso de Visión Artificial. Los ejemplos y el ejercicio que serán desarrollados están basados en el libro de Jan Erik Solem titulado ``Programming Computer Vision with Python_ Tools and algorithms for analyzing images``. Dicha temática se centra en la utilización del descriptor local de imagen de Harris, el cual es ampliamente usado en muchas aplicaciones de ingeniería y en la ciencia. 
 
-1. Un programa en dónde utilicen el código de ejemplo del capítulo 2 del detector de esquinas de Harris y modifiquen parámetros, cambien imágenes, número de detecciones, etc. Las imágenes o archivos binarios que utilicen deben subirlas al repositorio también en una carpeta llamada ``data``. Debe llevar el nombre ``ch02-harris-example.py``. 
-2. Deben resolver el ejercicio 1 del final del capítulo. Debe llevar el nombre ``ch02-ex1.py``. 
-3. Bonificación por cualquier ejercicio o programa adicional.
+# Contenido
 
-Ejemplo de la estructura del repositorio a subir
-
-	tarea2-descriptores-locales-JuanPerez/
-	.
-	├── README.md
-	├── ch02-harris-example.py
-	├── ch02-ex1.py
-	├── data
-	│   ├── image.jpg
-  
+1. ``
 ## Recomendación para cargar archivos/imágenes
 
 Debido a que algunos de nosotros trabajamos en equipos bajo algun sabor unix (Linux,OSX,etc.) y otros en Windows, es recomendable que a la hora de definir un camino (*path*) hacia una imagen u otro archivo dentro de su programa utilicen ``os.path``. Un ejemplo sencillo es [el siguiente:][path_link]
